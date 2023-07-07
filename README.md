@@ -5,6 +5,7 @@
 - `set $var=val`
 - `pipe gdb_command | less`
 - `pipe gdb_command | tee output.txt`
+- `!less output.txt`
 - `call malloc(size)`
 - `call free(addr)`
 - `call getchar()`

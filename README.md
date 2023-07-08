@@ -42,3 +42,8 @@
 - `bins`
 - `heap`
 - `vis_heap_chunks`
+
+## rr
+
+- `rr record -o /path/to/dir command`
+- `rr replay /path/to/dir`

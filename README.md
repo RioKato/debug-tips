@@ -29,6 +29,7 @@
 
 ## execution
 
+- `echo 0 | sudo tee /proc/sys/kernel/randomize_va_space`
 - `setarch -R command`
 - `env LD_PRELOAD=/path/to/lib command`
 - `ld.so --library-path /path/to/dir command`

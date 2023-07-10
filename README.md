@@ -30,9 +30,11 @@
 ## execution
 
 - `echo 0 | sudo tee /proc/sys/kernel/randomize_va_space`
-- `setarch -R command`
 - `env LD_PRELOAD=/path/to/lib command`
 - `ld.so --library-path /path/to/dir command`
+- `setarch -R command`
+  - `setarch -R ld.so --library-path /path/to/dir command`
+  - `setarch -R env LD_PRELOD=/path/to/lib command`
 
 ## pwndbg
 
@@ -47,5 +49,5 @@
 ## rr
 
 - `rr record -o /path/to/dir command`
-- `rr record -v LD_PRELOAD=/path/to/lib command`
+  - `rr record -v LD_PRELOAD=/path/to/lib command`
 - `rr replay /path/to/dir`

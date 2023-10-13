@@ -23,6 +23,8 @@
 - `rn`
 - `rs`
 - `watch *(char [SIZE]*)ADDRESS`
+- `rwatch ...`
+- `awatch ...`
 
 ## gcc
 

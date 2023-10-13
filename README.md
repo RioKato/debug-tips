@@ -22,6 +22,7 @@
 - `record stop`
 - `rn`
 - `rs`
+- `watch *(char [SIZE]*)ADDRESS`
 
 ## gcc
 

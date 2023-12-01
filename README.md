@@ -25,6 +25,7 @@
 - `watch *(char [SIZE]*)ADDRESS`
 - `rwatch ...`
 - `awatch ...`
+- `edit`
 
 ## gcc
 

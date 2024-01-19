@@ -26,6 +26,7 @@
 - `rwatch ...`
 - `awatch ...`
 - `edit`
+- `p $fs_base`
 
 ## gcc
 
@@ -58,11 +59,13 @@
 
 ## Routine
 
-### Regular
+### Standard
 
 - `b xxx` => `b if $reg == ?`
+- `b xxx` => `b if $_caller_is("fun")`
+- `b xxx` => `drpintf ,"%lx\n", $reg`
 
-### replay
+### Reverse
 
 - `rr replay` => `segfault` => `watch address` => `rc`
 - `rr replay` => `segfault` => `watch $reg` => `rc`

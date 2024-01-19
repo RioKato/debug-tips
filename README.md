@@ -27,6 +27,7 @@
 - `awatch ...`
 - `edit`
 - `p $fs_base`
+- `ignore bpnum count`
 
 ## gcc
 

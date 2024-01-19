@@ -55,5 +55,14 @@
 - `rr record -o /path/to/dir command`
   - `rr record -v LD_PRELOAD=/path/to/lib command`
 - `rr replay /path/to/dir`
+
+## Routine
+
+### Regular
+
+- `b xxx` => `b if $reg == ?`
+
+### replay
+
 - `rr replay` => `segfault` => `watch address` => `rc`
 - `rr replay` => `segfault` => `watch $reg` => `rc`

@@ -32,6 +32,7 @@
 ## gcc
 
 - `gcc -g -fno-eliminate-unused-debug-types -x c -c -o types.h`
+- `gcc -Og -fno-inline -g -o out src.c`
 
 ## execution
 

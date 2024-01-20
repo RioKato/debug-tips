@@ -28,6 +28,7 @@
 - `edit`
 - `p $fs_base`
 - `ignore bpnum count`
+- `save breakpoints example.gdb`
 
 ## gcc
 
